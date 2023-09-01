@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  
+  flex-direction: column; 
+  min-height: 95vh;
+ 
+  
+}
+.main {
+  display: inline-flex;  gap: 50px;
+} 
+ 
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+
+.tile-image {
+  float: left; width: 400px; margin-top: 100px; padding-right: 50px; height: 300px; object-fit: cover;
+}
+
+.left.card {
+  float: left;
+}
+
+.card-title {
+  padding-top: 100px;
+}
+
+.card-text {
+  margin-right: 140px;
+}
+
+.right.card {
+  float: left; margin-right: 140px;
+}
+
+.creative {
+  font-family: 'Roboto', sans-serif; color: #EAB2A0;
+}
+
+.mywebsite {
+  float: left;
+}
+
+.simple {
+    float: left; margin-top: 150px;
+}
+ 
+
+@media (min-width: 1px) and (max-width: 318px) {
+  body {
+    background-color: lightsalmon;
+  }
+  }
+
+
+
+@media (min-width: 319px) and (max-width: 900px) {
+  body {
+    background-color: lightsalmon;
+  } 
+  
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  } 
+  }
+
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: #ECDBBA;
+  
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1800px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1801px) and (max-width: 1900px) {
+  body {
+    background-color: #C69749;
+  }
+}
+
+@media (min-width: 1901px) and (max-width: 2000px) {
+  body {
+    background-color: #8B9A46;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2200px)
+{ body {
+    background-color: #00A8CC ;
+  } 
+} 
